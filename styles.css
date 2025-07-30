@@ -37,25 +37,25 @@ body {
     align-items: center;
     background-color: #2f4f4f;
     color: #edfff5;
-    padding: 96px 0;
+    padding: 128px 0;
 }
 
 .hero-container {
     display: flex;
     width: 70%;
     gap: 26px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    width: 30%;
+    gap: 24px;
+    width: 40%;
 }
 
 .hero-header {
-    font-size: xx-large;
+    font-size: 48px;
     font-weight: 900;
 }
 
@@ -78,7 +78,7 @@ body {
     background-color: #7fffd4;
     color: #2f4f4f;
     font-size: 16px;
-    align-self: flex-start;
+    width: fit-content;
 }
 
 .info-section {
